@@ -1,0 +1,15 @@
+[package]
+name = "kec"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.92"
+chia = "0.15.0"
+chia-wallet-sdk = { git = "https://github.com/xch-dev/chia-wallet-sdk", rev = "727ccd499c7f02e93f4e2e8591ff93575d589082" }
+clvmr = "0.9.1"
+hex = "0.4.3"
+hex-literal = "0.4.1"
+
+[patch.crates-io]
+clvmr = { git = "https://github.com/Chia-Network/clvm_rs", rev = "ad539f504ade075262ac1754a9e0010c2789255f" }
